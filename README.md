@@ -4,14 +4,12 @@ A premium, fintech-inspired personal finance management app built with React, Ty
 
 ## Inspiration
 
-This project design was inspired by **PiggyVest**, a Nigerian fintech app known for its:
+This project design was inspired by **PiggyVest**, fintech app known for its:
 
 - **Clean, modern aesthetic** - Minimal design without unnecessary clutter
 - **Trustworthy feel** - Color-coded insights and clear financial status
 - **Premium experience** - Smooth animations, thoughtful interactions, soft shadows
 - **Accessibility** - Easy to understand financial data at a glance
-
-The goal was to create a similar premium experience for personal finance tracking with a focus on Nigerian users (NGN currency).
 
 ---
 
@@ -78,7 +76,7 @@ src/
 
 ---
 
-## What You'd Improve With More Time
+## What I'd Improve With More Time
 
 ### 1. **Backend & Authentication**
 
@@ -121,7 +119,6 @@ src/
 
 - Unit tests (Jest)
 - Component tests (React Testing Library)
-
 
 ### 7. **Performance**
 
@@ -189,26 +186,26 @@ This maintains type safety while allowing dynamic coloring.
 
 ## Time Spent (Approximately)
 
-| Phase                             | Time     | Details                                                                                  |
-| --------------------------------- | -------- | ---------------------------------------------------------------------------------------- |
+| Phase                             | Time      | Details                                                                                  |
+| --------------------------------- | --------- | ---------------------------------------------------------------------------------------- |
 | **Planning & Architecture**       | 2 hours   | Created comprehensive implementation plan with component hierarchy                       |
-| **Setup & Configuration**         | 30 min   | Vite, TypeScript, TailwindCSS, PostCSS, tsconfig                                         |
-| **Types & Constants**             | 50 min   | Type definitions, color palette, seed data                                               |
-| **Utility Functions**             | 60 min   | 14 financial calculation functions, localStorage helpers                                 |
-| **Custom Hooks**                  | 1.5 hours   | useTransactions, useBudget, useInsights                                                  |
+| **Setup & Configuration**         | 30 min    | Vite, TypeScript, TailwindCSS, PostCSS, tsconfig                                         |
+| **Types & Constants**             | 50 min    | Type definitions, color palette, seed data                                               |
+| **Utility Functions**             | 60 min    | 14 financial calculation functions, localStorage helpers                                 |
+| **Custom Hooks**                  | 1.5 hours | useTransactions, useBudget, useInsights                                                  |
 | **Reusable Components**           | 2 hours   | ProgressBar, CategoryBadge, EmptyState, Toast                                            |
 | **Dashboard Components**          | 4 hours   | DashboardCards, SpendingChart, BudgetCard, BudgetSection, InsightsStrip, TransactionList |
-| **Modal & Forms**                 | 1 hour   | TransactionForm with validation, animations                                              |
-| **Main Layout & Integration**     | 40 min   | Dashboard.tsx, Navbar, component composition                                             |
+| **Modal & Forms**                 | 1 hour    | TransactionForm with validation, animations                                              |
+| **Main Layout & Integration**     | 40 min    | Dashboard.tsx, Navbar, component composition                                             |
 | **Bug Fixes & TypeScript Errors** | 5 hours   | Icon styling, unused imports, type compatibility                                         |
-| **Testing & Build Verification**  | 30 min   | npm build, resolved bundling issues                                                      |
-| **Documentation (README)**        | 1 hour   | This file                                                                                |
-|                                   |          |                                                                                          |
+| **Testing & Build Verification**  | 30 min    | npm build, resolved bundling issues                                                      |
+| **Documentation (README)**        | 1 hour    | This file                                                                                |
+|                                   |           |                                                                                          |
 | **TOTAL**                         | ~24 hours | Complete project from empty directory to production-ready build                          |
 
 ---
 
-## Key Metrics
+<!-- ## Key Metrics
 
 - **Components**: 15 (1 main layout, 7 section components, 4 reusable, 2 modals, 1 root)
 - **Custom Hooks**: 3
@@ -216,7 +213,7 @@ This maintains type safety while allowing dynamic coloring.
 - **TypeScript Strictness**: ✅ 100% (no `any` types)
 - **Bundle Size**: 905 KB minified (252 KB gzip)
 - **Responsive Breakpoints**: Mobile, Tablet (md), Desktop (lg)
-- **Animations**: 6 (CountUp, SlideUp, FadeIn, ProgressBar, etc.)
+- **Animations**: 6 (CountUp, SlideUp, FadeIn, ProgressBar, etc.) -->
 
 ---
 
@@ -269,7 +266,7 @@ npm run lint
 - ✅ Beautiful donut chart with legend
 - ✅ CountUp animations
 - ✅ Toast notifications
-- ✅ Responsive design (mobile → desktop)
+- ✅ Responsive design (mobile 2 desktop)
 - ✅ Full localStorage persistence
 
 ---
@@ -296,32 +293,11 @@ npm run lint
 
 ## Acknowledgments
 
+- Lyncs Africa Frontend Developer Assessment
 - Inspired by **PiggyVest** - Nigeria's leading fintech
 - Built with **React 18**, **TypeScript 5**, **TailwindCSS 3**
 - Icons from **Lucide React**
 - Charts from **Recharts**
 - Dates handled with **date-fns**
 
----
-
-## 📄 License
-
-MIT - Feel free to use this project as a template or learning resource.
-
----
-
-## 🤝 Contributing
-
-This is a personal project, but feel free to fork and customize for your needs!
-
-**Suggested improvements**:
-
-- Add unit tests
-- Implement dark mode
-- Add more transaction categories
-- Create a backend API
-- Deploy to Vercel/Netlify
-
----
-
-**Built with ❤️ as an assessment for personal finance management.**
+**Built with ❤️ as an assessment.**
